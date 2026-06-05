@@ -15,7 +15,7 @@ status:
 .env docker compose ps
 
 shell:
-.env docker exec -it lalafo-monitor-bot bash
+.env docker exec -it lalafo-bot bash
 
 db:
-.env docker exec -it lalafo-monitor-bot sqlite3 bot.db
+.env docker exec -it lalafo-bot sqlite3 bot.db
