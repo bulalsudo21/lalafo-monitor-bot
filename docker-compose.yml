@@ -1,7 +1,7 @@
 services:
   bot:
     build: .
-    container_name: lalafo-monitor-bot
+    container_name: lalafo-bot
     env_file:
       - .env
     volumes:
