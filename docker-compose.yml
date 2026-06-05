@@ -1,0 +1,10 @@
+services:
+  bot:
+    build: .
+    container_name: lalafo-monitor-bot
+    env_file:
+      - .env
+    volumes:
+      - ./bot.db:/app/bot.db
+    restart: unless-stopped
+    shm_size: "1gb"
